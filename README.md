@@ -64,6 +64,20 @@ Pense passo a passo antes de escrever:
 | Edge cases | Nenhum | Proporcionalidade por complexidade |
 | Regras | Nenhuma | 10+ regras explícitas |
 
+### Comparação de Métricas: v1 vs v2
+
+| Métrica | v1 (Baseline) | v2 (Otimizado) | Melhoria |
+|---------|:------------:|:--------------:|:--------:|
+| **Tone Score** | 0.84 | 0.90 | +7.1% |
+| **Acceptance Criteria** | 0.80 | 0.91 | +13.8% |
+| **User Story Format** | 0.78 | 0.88 | +12.8% |
+| **Completeness** | 0.81 | 0.92 | +13.6% |
+| F1-Score | 0.72 | 0.84 | +16.7% |
+| Clarity | 0.90 | 0.93 | +3.3% |
+| Precision | 0.86 | 0.92 | +7.0% |
+| **MÉDIA ESPECÍFICAS** | **0.8091** | **0.9018** | **+11.5%** |
+| **MÉDIA GERAL** | **0.8195** | **0.9002** | **+9.8%** |
+
 ### Métricas de Avaliação (Resultado Final)
 
 ```
@@ -81,13 +95,13 @@ Métricas Derivadas:
   - Correctness: 0.89
 
 Métricas Específicas (Critério de Aprovação):
-  - Tone Score:                0.89
+  - Tone Score:                0.90
   - Acceptance Criteria Score: 0.91 ✓
-  - User Story Format Score:   0.90 ✓
-  - Completeness Score:        0.95 ✓
+  - User Story Format Score:   0.88
+  - Completeness Score:        0.92 ✓
 
-📊 MÉDIA MÉTRICAS ESPECÍFICAS: 0.9115
-📊 MÉDIA GERAL (todas): 0.9069
+📊 MÉDIA MÉTRICAS ESPECÍFICAS: 0.9018
+📊 MÉDIA GERAL (todas): 0.9002
 ✅ STATUS: APROVADO (média >= 0.9)
 ```
 
@@ -95,9 +109,9 @@ Métricas Específicas (Critério de Aprovação):
 
 | Iteração | Tone | AC Score | Format | Completeness | Média Específica | Status |
 |----------|------|----------|--------|--------------|------------------|--------|
-| 1 (5 métricas) | — | — | — | — | 0.876 | Reprovado |
-| 7 (5 métricas) | — | — | — | — | 0.901 | Aprovado |
-| 10 (7 métricas) | 0.89 | 0.91 | 0.90 | 0.95 | **0.9115** | **Aprovado** |
+| v1 baseline | 0.84 | 0.80 | 0.78 | 0.81 | 0.809 | Reprovado |
+| v2 iter 1-7 (5 métricas) | — | — | — | — | 0.876→0.901 | Iterando |
+| v2 final (7 métricas) | 0.90 | 0.91 | 0.88 | 0.92 | **0.9018** | **Aprovado** |
 
 ### Links LangSmith
 
