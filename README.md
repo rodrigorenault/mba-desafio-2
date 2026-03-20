@@ -116,7 +116,21 @@ Métricas Específicas (Critério de Aprovação):
 ### Links LangSmith
 
 - **Prompt v2 (público):** [mba-test/bug_to_user_story_v2](https://smith.langchain.com/hub/mba-test/bug_to_user_story_v2)
-- **Dashboard de avaliação:** [prompt-optimization-challenge-resolved](https://smith.langchain.com/projects/prompt-optimization-challenge-resolved)
+- **Dashboard de avaliação:** [desafio-2-prompt-optimization](https://smith.langchain.com/projects/desafio-2-prompt-optimization)
+
+### Evidências LangSmith
+
+**Traces de avaliação** — Execuções v1 e v2 com métricas via LLM-as-Judge:
+
+![Traces de avaliação](screenshots/traces-list.png)
+
+**Prompt v2 publicado** — Público no LangSmith Hub com 9 commits de iteração:
+
+![Prompt publicado](screenshots/prompts-published.png)
+
+**Dataset de avaliação** — 15 exemplos de bugs com referências esperadas:
+
+![Dataset de avaliação](screenshots/datasets.png)
 
 ---
 
