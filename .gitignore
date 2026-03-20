@@ -45,5 +45,6 @@ ENV/
 *.log
 
 # Project specific
+docs/
 results/
 .claude/

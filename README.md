@@ -222,14 +222,10 @@ desafio-2/
 │   ├── __init__.py
 │   └── test_prompts.py       # 7 testes de validação do prompt
 │
-└── docs/                     # Documentação do projeto
-    ├── prd.md
-    ├── frd.md
-    ├── adr.md
-    ├── guidelines.md
-    ├── design.md
-    ├── infra.md
-    └── rules.md
+└── screenshots/              # Evidências LangSmith
+    ├── traces-list.png
+    ├── prompts-published.png
+    └── datasets.png
 ```
 
 ---
